@@ -1,5 +1,10 @@
 {
     "require": {
         "drbiko/php-qr-code": "^1.0"
+    },
+    "scripts": {
+        "post-install-article": [
+            "touch foo"
+        ]
     }
 }
