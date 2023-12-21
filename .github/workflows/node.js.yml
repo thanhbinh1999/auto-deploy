@@ -21,4 +21,4 @@ jobs:
 
     steps: 
     - run : npm install
-    - run : git pull
+    - run : git branch 
